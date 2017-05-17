@@ -1,11 +1,7 @@
 Name: Gauri Vishveshvar Kulkarni
-Clemson Email Address: gaurik@clemson.edu
-
-Project no: 6
-Project due date: 4th December, 12 P.M.
 
 Project description: 
-Project 6 is the game Calvinball. It contains a player 'Calvin' that can move left, right, up and down using the keys 'a','d','w','s' respectively, or the arrow keys. Calvin can also jump by pressing the spacebar key. Hold the spacebar key down to be in the jumping state. Calvin can shoot balls (projectiles) by pressing 'b' which uses object pooling. There are a bunch of Moes, the Bully in the game. Moe sprites have been given AI to move towards Calvin till a safe distance is reached(ATTACK mode) and switch to Normal mode if Moe is too close to Calvin. If Calvin collides with any of them, he loses a life. Calvin has to reach the end of the world to win the game. Calvin gets 3 lives to win the game, else he loses the game. Press 'r' to reset the game. Press 'g' to turn on God mode.
+This is the game Calvinball. It contains a player 'Calvin' that can move left, right, up and down using the keys 'a','d','w','s' respectively, or the arrow keys. Calvin can also jump by pressing the spacebar key. Hold the spacebar key down to be in the jumping state. Calvin can shoot balls (projectiles) by pressing 'b' which uses object pooling. There are a bunch of Moes, the Bully in the game. Moe sprites have been given AI to move towards Calvin till a safe distance is reached(ATTACK mode) and switch to Normal mode if Moe is too close to Calvin. If Calvin collides with any of them, he loses a life. Calvin has to reach the end of the world to win the game. Calvin gets 3 lives to win the game, else he loses the game. Press 'r' to reset the game. Press 'g' to turn on God mode.
 If the ball hits Moe, moe explodes. If Moe collides with Calvin, Calvin expodes.
 
 Leaves and few sounds are taken from the Internet. Everything else is drawn and recorded.
