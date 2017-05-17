@@ -1,0 +1,191 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+  <screenTitle>Gauri Kulkarni's Animation</screenTitle>
+  <gameTitle>CALVINBALL</gameTitle>
+  <maxStringSize>50</maxStringSize>
+  <frameCap>60</frameCap>
+  <framesAreCapped>true</framesAreCapped>
+  <frameMax>300</frameMax>
+  <username>gaurik</username>
+
+  <safeDistance>300</safeDistance>
+
+  <view>
+    <width>854</width>
+    <height>480</height>
+  </view>
+
+  <world>
+    <width>5000</width>
+    <height>480</height>
+  </world>
+
+
+  <clock>
+    <locX>10</locX>
+    <locY>10</locY>
+    <slocX>0</slocX>
+    <slocY>0</slocY>
+    <flocX>0</flocX>
+    <flocY>30</flocY>
+  </clock>
+
+  <font name="font">
+    <file>font/QumpellkaNo12.otf</file>
+    <size>16</size>
+    <red>000</red>
+    <green>000</green>
+    <blue>000</blue>
+    <unused>0</unused>
+  </font>
+  
+  <Hud>
+    <time>3</time>
+    <width>340</width>
+    <height>280</height>
+    <StartX> 10 </StartX>
+    <StartY> 10 </StartY>
+  </Hud>
+ 
+  <mountains>
+    <file>images/mount.png</file>
+    <red>193</red>
+    <green>205</green>
+    <blue>205</blue>
+    <factor>4</factor>
+    <srcX>0</srcX>
+    <srcY>0</srcY>
+    <width>854</width>
+    <height>480</height>
+    <transparency>false</transparency>
+  </mountains>
+
+  <trees>
+    <file>images/trees1.png</file>
+    <red>193</red>
+    <green>205</green>
+    <blue>205</blue>
+    <factor>2</factor>
+    <srcX>0</srcX>
+    <srcY>0</srcY>
+    <width>854</width>
+    <height>480</height>
+    <transparency>true</transparency>
+  </trees>
+
+  <grass>
+    <file>images/grass3.png</file>
+    <red>193</red>
+    <green>205</green>
+    <blue>205</blue>
+    <factor>1</factor>
+    <srcX>0</srcX>
+    <srcY>0</srcY>
+    <width>854</width>
+    <height>480</height>
+    <transparency>true</transparency>
+  </grass>
+
+  <leaves>
+  <file>images/leaf.png</file>
+  <cushion> 10 </cushion>
+  <scale min = "0.15" max = "1.5"/>
+  <numberOfLeaves>150</numberOfLeaves>
+  <loc y = "100"/>
+  <width>40</width>
+  <height>40</height>
+  <speed x = "10" y = "130"/>
+  <transparency>true</transparency>
+  </leaves>
+
+  <ball>
+    <file>images/ball2.png</file>
+    <startLoc x="120" y="400"/>
+    <width>40</width>
+    <height>40</height>
+    <speed x = "1300" y = "200"/>
+    <Interval>60</Interval>
+    <speedX>2000</speedX>
+    <speedY>2000</speedY>
+    <distance>400</distance> 
+    <upperLimit>300</upperLimit>
+    <lowerLimit>0</lowerLimit>
+    <transparency>true</transparency>
+  </ball>
+
+  <moe>
+    <file>images/moe.png</file>
+    <startLoc x="220" y="200"/>
+    <width>70</width>
+    <height>97</height>
+    <speed x = "-800" y = "200"/>
+    <speedX>-800</speedX>
+    <speedY>1000</speedY>
+    <chunk>
+      <size>9</size>
+      <distance>80</distance>
+    </chunk>
+    <upperLimit>230</upperLimit>
+    <lowerLimit>0</lowerLimit>
+    <transparency>true</transparency>
+  </moe>
+
+  <hobbes>
+    <file>images/hobbes1.png</file>
+    <startLoc x="4900" y="300"/>
+    <frames>2</frames>
+    <frameInterval>10</frameInterval>
+    <srcX>0</srcX>
+    <srcY>0</srcY>
+    <chunk>
+      <size>20</size>
+      <distance>30</distance>
+    </chunk>
+    <width>100</width>
+    <height>170</height>
+    <speedX>10</speedX>
+    <speedY>10</speedY>
+    <upperLimit>180</upperLimit>
+    <lowerLimit>0</lowerLimit>
+    <transparency>true</transparency>
+  </hobbes>
+
+  <calvin>
+    <file>images/calvin1.png</file>
+    <startLoc x="0" y="300"/>
+    <frames>5</frames>
+    <frameInterval>10</frameInterval>
+    <srcX>0</srcX>
+    <srcY>0</srcY>
+    <chunk>
+      <size>20</size>
+      <distance>30</distance>
+    </chunk>
+    <width>161</width>
+    <height>150</height>
+    <speedX>900</speedX>
+    <speedY>900</speedY>
+    <upperLimit>180</upperLimit>
+    <lowerLimit>0</lowerLimit>
+    <transparency>true</transparency>
+  </calvin>
+
+  <bird>
+    <file>images/bird.png</file>
+    <startLoc x="220" y="400"/>
+    <frames>4</frames>
+    <frameInterval>10</frameInterval> 
+    <srcX>0</srcX>
+    <srcY>0</srcY>
+    <width>40</width>
+    <height>40</height>
+    <speedX>600</speedX>
+    <speedY>100</speedY>
+    <upperLimit>300</upperLimit>
+    <lowerLimit>0</lowerLimit>
+    <transparency>true</transparency>
+  </bird>
+
+</GameData>
